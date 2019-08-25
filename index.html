@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>FASE 1</title>
+<style>
+    h1 { color: #0000FF; }
+  </style>
+<!-- TITULO -->
+<h1>Presaberes</h1>
+
+<!-- 2. ENCABEZADO -->
+<h2>Willy Yesid Duarte Ragua, Grupo: 301127A_614, C.C. 88.259.601; Skype: willydu17; Celular: 3142475719; mail: willydu17@hotmail.com</h2>
+
+</head>
+
+<body>
+<!-- 3. INSERTAR TABLA -->
+
+	<table border="1">
+	<caption>Etiquetas HTML</caption>
+	<tr>
+		<th>Etiquetas</th>
+		<th>Descripción</th>
+	</tr>
+	<tr>
+		<td>head</td>
+		<td>delimita el encabezado del documento</td>
+	</tr>
+	<tr>
+		<td>title</td>
+		<td>título del documento (se muestra en la pestaña del navegador)</td>
+	</tr>
+	<tr>
+		<td>style</td>
+		<td>hoja de estilo incluida en el documento (type, title)</td>
+	</tr>
+	<tr>
+		<td>link</td>
+		<td>enlace a otros archivos (hoja de estilo, etc.)</td>
+	</tr>
+	<tr>
+		<td>meta</td>
+		<td>metainformación sobre el documento</td>
+	</tr>
+	<tr>
+		<td>table</td>
+		<td>tabla (border)</td>
+	</tr>
+	<tr>
+		<td>tr</td>
+		<td>fila</td>
+	</tr>
+	<tr>
+		<td>td</td>
+		<td>celda</td>
+	</tr>
+	<tr>
+		<td>h1 a h6</td>
+		<td>encabezado (de nivel 1 a 6)</td>
+	</tr>
+	<tr>
+		<td>header</td>
+		<td>cabecera</td>
+	</tr>
+	</table>
+
+
+<!-- 4. INSERTAR TABLA con CSS -->
+         
+<table border="2">
+<link rel="stylesheet" href="tabla.css">
+<div id="main-container">
+	<caption> Estilos que pueden aplicarse en CSS</caption>
+	<tr>
+		<th>Estilos</th>
+		<th>Descripción</th>
+	</tr>
+	<tr>
+		<td>Colors</td>
+		<td>Define el color del texto. El color deseado puede escribirse directamente, en inglés, o puede utilizarse el sistema RGB en hexadecimal. </td>
+	</tr>
+	<tr>
+		<td>Backgrounds</td>
+		<td>El Color del fondo se controla con las mismas instrucciones que las de la página HTML: background. Los parámetros de color, al igual que en HTML, se pueden escribir con su nombre (en inglés) o con la notación RGB en hexadecimal.</td>
+	</tr>
+	<tr>
+		<td>Borders</td>
+		<td>Con css se pueden definir los bordes de un bloque, que por defecto son invisibles. Por tanto, lo primero que hay que definir es el estilo del borde. Además del estilo, se puede definir su color y grosor, y todo ello puede hacerse globalmente, sobre los cuatro lados del bloque, o cada uno por separado. Las unidades de medida y los nombres o códigos de colores que pueden utilizarse, son los mismos que ya se han visto anteriormente para los textos. Para definir el grosor de los bordes tenemos: border-left-width:unidad borde izquierdo
+		border-right-width:unidad   borde derecho, border-top-width:unidad   borde superior; border-bottom-width:unidad   borde inferior; border-width:unidad   los cuatros bordes</td>
+		
+	</tr>
+	<tr>
+		<td>Margins</td>
+		<td>Los bloques, por defecto, se escriben en la ventana activa comenzando en el ángulo superior izquierdo de la misma, y su contenido, en el interior del bloque, comienza en el mismo sitio. 
+		    Esto es posible modificarlo, para los márgenes del bloque respecto a la ventana activa: margin-left:unidad   margen izquierdo; margin-right:unidad   margen derecho; margin-top:unidad   margen superior;
+		    margin-bottom:unidad   margen inferior; margin:unidad   los cuatros márgenes</td>
+	</tr>
+	<tr>
+		<td>Text</td>
+		<td>los parámetros disponibles para dar estilo al texto. Como ya sabes, las unidades de medida aplicables a todos ellos son varias, pero para mayor claridad, en todos los ejemplos utilizaremos solamente el píxel: px. Sea por ejemplo la siguiente página:
+		Algunas opciones son  text-decoration:underline;  text-transform:capitalize;  text-align:left;   text-indent:30px;</td>
+	</tr>
+	<tr>
+		<td>Fonts</td>
+		<td>Se refiere a las caracteristicas aplicables a las fuentes de los textos
+		    Ejemplos: font-size:20px;    También muy conocido: define el tamaño de los caracteres.
+		    font-family:Courier;    Indica el nombre (o nombres) del tipo de letra que se va a emplear	
+		    font-weight:bold;    Aquí se especifica el peso o grosor de la fuente.
+		    text-align:left;    Alinea el texto según convenga</td>
+	</tr>
+	<tr>
+		<td>Height</td>
+		<td>El Tamaño son las dimensiones del bloque. Si no se indican dimensiones, por defecto, el bloque ocupará todo el ancho de la ventana, y de alto lo que su contenido precise. Se utilizan dos atributos para controlarlo: width para el ancho y height para el alto.</td>
+	</tr>
+	<tr>
+		<td>Width</td>
+		<td>El Tamaño son las dimensiones del bloque. Si no se indican dimensiones, por defecto, el bloque ocupará todo el ancho de la ventana, y de alto lo que su contenido precise. Se utilizan dos atributos para controlarlo: width para el ancho y height para el alto</td>
+	</tr>
+	<tr>
+		<td>Links</td>
+		<td>Hay un elemento HTML que genera un estilo propio por defecto: <A>. Como ya sabes, los enlaces aparecen por defecto de otro color y subrayados, y cambian de color según hayan sido visitados o no. Estos efectos de estilo no definidos por el usuario se llaman pseudoclases. Hay dos posibles modificaciones de estilo para este elemento; el color del enlace en sus distintos estados y si aparece subrayado o no. Teóricamente no debiera influir el orden en que se escriban los distintos estados en la CSS, pero es mejor escribir las declaraciones en el siguiente orden (por supuesto, los colores son libres):
+		a {text-decoration: none;}
+		a:link {color: #FF0000;}
+		a:visited {color: #00FF00;}
+		a:hover {color: #FF00FF;}
+		a:active {color: #0000FF;}</td>
+	</tr>
+	<tr>
+		<td>Lists</td>
+		<td>Es posible definir el tipo de las listas con CSS. Por ejemplo:
+		ul {list-style-type:square;}
+		ol {list-style-type:upper-roman;}</td>
+	</tr>
+	<tr>
+		<td>Tables</td>
+		<td>Las tablas generadas con HTML tienen un serio problema de estética. En efecto, si los bordes son visibles, su estilo es bastante tosco y pueden arruinar cualquier diseño. Existen instrucciones en CSS para conseguir que las tablas tengan bastante mejor aspecto. Se puede modificar cualquiera de sus componentes: bordes de la tabla, bordes de las celdas, fondo, título, alineación, etc.</td>
+	</tr>
+	<tr>
+		<td>Position</td>
+		<td>Indica la posición del gráfico dentro del bloque. Si no se indica otra cosa, por defecto éste será colocado en el ángulo superior izquierdo del bloque. Para variar su posición se pueden escribir las coordenadas deseadas de la esquina superior izquierda del gráfico en píxels o en tantos por ciento respecto al total del bloque.</td>
+	</tr>
+	<tr>
+		<td>Overflow</td>
+		<td>Los navegadores tienen preferncia por mostrar los textos, es evidente que la instrucción no es completa, se puede recurrir a un nuevo atributo: overflow que tiene cuatro parámetros:
+		<br><br/> <b>visible:</b> Indica que el contenido no será recortado a los límites del bloque, es decir, que puede ser presentado fuera de la caja de bloque ignorando sus límites. Este valor provoca el mismo comportamiento del navegador que si no se utiliza el atributo overflow
+		<br><br/><b>hidden:</b> Lo contrario del anterior. El contenido que no quepa dentro de los límites del bloque será recortado y no será visible ni accesible.
+		<br><br/><b>scroll:</b> Mantiene las dimensiones definidas para el bloque, y provee de barras de escroll horizontal y vertical para todo el contenido que exceda los límites del bloque.
+		<br><br/><b>auto:</b> Parecido al anterior. En lugar de crear barras de scroll tanto vertical como horizontal, incluso aunque alguna de ellas no sea necesaria, decide automáticamente cuales son precisas.</td>
+	</tr>
+	<tr>
+		<td>Float</td>
+		<td>Dentro de un bloque, además de texto, pueden ir gráficos u otros bloques. Para conseguir que estos objetos se alineen respecto al texto que ya exista en el bloque, o para que se alineen varios bloques entre sí, se utiliza la instrucción float que puede tener tres parámetros: left   right   none (por defecto).</td>
+	</tr>
+	</table>
+                
+</body>
